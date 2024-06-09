@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <section class="p-5 mt-5 mx-auto">
+        <h1 class="text-center">Smart Login System</h1>
+        <div class="input-name m-3 mb-4">
+            <input id="signupName" type="text" class="w-100 p-1 px-2 rounded-2" placeholder="Enter your name">
+        </div>
+        <div id="input-email" class="input-email m-3 mb-4">
+            <input id="signupEmail" type="text" class="w-100 p-1 px-2 rounded-2" placeholder="Enter your email">
+            <p id="paragraph-email" class="alert alert-danger mt-2 d-none">
+                Email must contain : <br>
+                1-one or more alphanumeric characters, dots, underscores, or hyphens for the username part.<br>
+                2-one or more alphanumeric characters, dots, or hyphens for the domain name.<br>
+                ex:(aaa@aa.aa)     
+            </p>
+        </div>
+        <div id="input-password" class="input-password m-3 mb-5">
+            <input id="signupPassword" type="password" class="w-100 p-1 px-2 rounded-2" placeholder="Enter your password">
+            <p id="paragraph-password" class="alert alert-danger mt-2 d-none">
+                Password must contain : <br>
+                1-contains at least eight characters<br>
+                2-including at least one number <br>
+                3-includes both lower and uppercase letters <br>
+                4-include at least one special characters, #, ?, !.<br>
+            </p>
+        </div>
+        <span id="errorMsg" class="mb-4 text-center d-none">All inputs is required</span>
+        <div class="btn-login m-3 ">
+            <button id="signupBtn" class="w-100 p-1 rounded-2">Sign Up</button>
+        </div>
+        <div class="question-signup text-center mb-4 px-2">
+            <span>Don’t have an account? </span>
+            <span><a href="index.html"> Signin</a></span>
+        </div>
+    </section>
+    <script src="js/signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+:root{
+    --bg-main : #24353F;
+}
+
+body{
+    background-color: var(--bg-main);
+}
+
+section{
+    background-color: var(--bg-main);
+    width: 75%;
+    box-shadow: 0 0 30px #000000;
+}
+h1{
+    color: #17A2B8;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+input{
+    background-color: var(--bg-main);
+    border: 0;
+    outline: 1px solid #CED4DA;
+    color: #FFFFFF;
+}
+::placeholder{
+    color: #CED4DA;
+}
+
+input:focus {
+    outline: 1px solid #80BDFF;
+}
+
+.btn-login button{
+    background-color: var(--bg-main);
+    border: 0;
+    outline: 1px solid #17A2B8;
+    color: #17A2B8;
+    transition: all 0.1s;
+}
+
+.btn-login button:hover{
+    background-color: #17A2B8;
+    color: #FFFFFF;
+}
+
+.btn-login button:focus{
+    outline: 3px solid #1D6B7B;
+    border: 1px solid #17A2B8;
+    
+}
+
+.question-signup{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+
+.question-signup span a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.question-signup span a:hover{
+    text-decoration: underline;
+}

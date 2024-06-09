@@ -1,0 +1,40 @@
+:root{
+    --bg-main : #24353F;
+    --bs-btn-color: #24353F;
+
+}
+
+body{
+    background-color: var(--bg-main);
+}
+
+section{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.welcom-msg{
+    background-color: var(--bg-main);
+    width: 75%;
+    box-shadow: 0 0 30px #000000;
+}
+
+h1{
+    color: #17A2B8;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+.bg-nav{
+    padding: 10px;
+    background-color: var(--bg-main);
+    box-shadow: 0 0 20px #000000;
+    
+}
+.btn-logout{
+    --bs-btn-color: #ffffff80;
+    --bs-btn-hover-color: #FFFFFF;
+}
